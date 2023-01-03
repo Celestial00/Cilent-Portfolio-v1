@@ -1,0 +1,143 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:root{
+
+    --primary-color:  #18191A ;
+    --secondary-color: #222222;
+    --text-color-pri: #F49D1A;
+    --text-color-sec: #DC3535; 
+
+}
+
+body{
+
+    background-color: var(--primary-color);
+
+}
+
+nav{
+
+    margin: 30px 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+
+}
+
+nav ul li{
+    
+    display: inline-block;
+   
+
+}
+
+nav ul li a{
+
+    font-size: 1em;
+    margin-right: 15px;
+    color: aliceblue;
+    letter-spacing: 0.2em;
+
+}
+
+nav h2{
+
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+        background: linear-gradient( to right, var(--text-color-pri), var(--text-color-sec));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        text-transform: uppercase;
+    margin-left: 20px;
+
+}
+
+/* intro-sec */
+
+.intro-sec{
+
+    
+    background-color: var(--secondary-color);
+    margin: 30px 50px;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+
+
+}
+
+.intro-sec .intro-text{
+
+    margin-top: 10px;
+
+
+
+
+}
+
+.intro-sec .intro-text span{
+
+
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    color: aliceblue;
+    text-transform: uppercase;
+    
+
+
+}
+
+.intro-sec .intro-text h2{
+
+    margin: 10px 0px;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    background: linear-gradient(to right, var(--text-color-pri), var(--text-color-sec));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+
+}
+
+.intro-sec .intro-text button{
+
+
+    margin-top: 20px;
+    padding: 10px 40px;
+    background: linear-gradient(to right,var(--text-color-pri), var(--text-color-sec));
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: white;
+    text-transform: uppercase;
+    
+
+}
+
+.intro-sec .intro-img{
+
+
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/model.jpg);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+
+}
