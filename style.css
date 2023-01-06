@@ -153,8 +153,6 @@ nav h2{
 
     background-color: var(--secondary-color);
     margin: 30px 50px;
-    
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,8 +169,8 @@ nav h2{
 
 
     margin-bottom: 10px;
-    color: #DC3535;
-    font-size: 1.1em;
+    color:  var(--text-color-pri);
+    font-size: 1.6em;
 
 
 
@@ -195,16 +193,17 @@ nav h2{
 .about-me .about-text p{
 
 
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 1px;
     color: white;
+    padding-right: 250px;
 
 }
 
 .about-me .about-img{
 
-    width: 1800px;
-    height: 300px;
+    width:1200px;
+    height: 400px;
     background-image: url(./img/Ex-pix.jpg);
     background-position: cover;
     background-size: cover;
@@ -214,3 +213,143 @@ nav h2{
 
 
 }
+
+
+.Exp-sec{
+
+     
+    background-color: var(--secondary-color);
+    margin: 30px 50px;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Exp-sec .sub-sec{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.Exp-sec .work-force .dot{
+
+
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.Exp-sec .work-force .line{
+
+
+    width: 2px;
+    height: 60px;
+    margin-left: 4px;
+    background-color: white;
+
+
+}
+
+.Exp-sec .Exp-text{
+
+
+    margin-right: 450px;
+
+}
+
+.Exp-sec .Exp-text span{
+
+
+    font-size: 1em;
+    text-transform:uppercase ;
+    color: #F49D1A;
+
+    
+
+}
+
+.Exp-sec .Exp-text h2{
+
+
+    font-size: 3em;
+    text-transform:uppercase ;
+   
+
+    
+
+}
+
+
+.Exp-sec .Exp-text h5{
+
+
+    font-size: 3em;
+    text-transform:uppercase ;
+    background: linear-gradient(to right, var(--text-color-pri), var(--text-color-sec));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+
+   
+
+    
+
+}
+
+.Exp-sec .work-force{
+
+    margin-right: 450px;
+
+   
+
+}
+
+.Exp-sec .work-force .tab-1{
+
+    display: flex;
+    width: 400px;
+    
+
+}
+
+.Exp-sec .work-force .tab-1-text{
+
+    
+    margin-left: 50px;
+    
+
+}
+
+
+
+.Exp-sec .work-force .tab-1-text h2{
+
+
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-weight: 200;
+    
+
+}
+
+
+.Exp-sec .work-force .tab-1-text p{
+
+
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    
+
+}
+
