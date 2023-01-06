@@ -44,7 +44,7 @@ nav ul li{
 
 nav ul li a{
 
-    font-size: 1em;
+    font-size: 0.8em;
     margin-right: 15px;
     color: aliceblue;
     letter-spacing: 0.2em;
@@ -124,9 +124,14 @@ nav h2{
     -webkit-background-clip: border-box;
     -webkit-text-fill-color: white;
     text-transform: uppercase;
+    outline: unset;
+    border: none;
+    cursor: pointer;
+    
     
 
 }
+
 
 .intro-sec .intro-img{
 
@@ -137,7 +142,75 @@ nav h2{
     background-position: 0%;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 0.5px solid var(--text-color-pri);
     
+
+}
+
+.about-me{
+
+    background-color: var(--secondary-color);
+    margin: 30px 50px;
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me .about-text{
+
+    margin-left: 40px;
+
+}
+
+.about-me .about-text span{
+
+
+    margin-bottom: 10px;
+    color: #DC3535;
+    font-size: 1.1em;
+
+
+
+}
+
+.about-me .about-text h2{
+
+
+    margin-bottom: 10px;
+    font-size: 4em;
+    background: linear-gradient(to right, var(--text-color-pri), var(--text-color-sec));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+
+    
+
+}
+
+.about-me .about-text p{
+
+
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: white;
+
+}
+
+.about-me .about-img{
+
+    width: 1800px;
+    height: 300px;
+    background-image: url(./img/Ex-pix.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 10px; */
+    margin-left: 300px;
+
 
 }
