@@ -229,6 +229,20 @@ nav h2{
 
 }
 
+.Exp-sec .sec-intro{
+
+    margin-bottom: 50px;
+
+}
+
+.Exp-sec .sec-intro h2{
+
+    font-size: 1.8em;
+    color: white;
+    font-weight: 400;
+
+}
+
 .Exp-sec .sub-sec{
 
     display: flex;
@@ -353,3 +367,54 @@ nav h2{
 
 }
 
+.Portfolio-sec{
+
+    
+    background-color: var(--secondary-color);
+    margin: 30px 50px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Portfolio-sec .sec-intro{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.Portfolio-sec .sec-intro h2{
+
+
+    font-size: 1.8em;
+    color: white;
+    font-weight: 400;
+
+
+
+}
+
+
+.Portfolio-sec .portfolio-img{
+
+    
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+
+}
+
+.Portfolio-sec .portfolio-img img{
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position:center ;
+
+}
